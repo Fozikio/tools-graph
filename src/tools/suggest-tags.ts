@@ -5,7 +5,7 @@
  * converting their names into tag suggestions.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const MIN_SCORE = 0.6;
 const MAX_RESULTS = 10;

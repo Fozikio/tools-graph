@@ -5,7 +5,7 @@
  * Uses the generic CortexStore API and embedding/LLM providers.
  */
 
-import type { ToolPlugin } from 'cortex-engine';
+import type { ToolPlugin } from '@fozikio/cortex-engine';
 import { graphReportTool } from './tools/graph-report.js';
 import { linkTool } from './tools/link.js';
 import { suggestLinksTool } from './tools/suggest-links.js';

@@ -6,7 +6,7 @@
  * "this exemplifies that", "these are in tension", etc.
  */
 
-import type { ToolDefinition, ToolContext, EdgeRelation } from 'cortex-engine';
+import type { ToolDefinition, ToolContext, EdgeRelation } from '@fozikio/cortex-engine';
 
 const EDGES_COLLECTION = 'edges';
 

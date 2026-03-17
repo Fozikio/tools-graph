@@ -6,7 +6,7 @@
  * that could strengthen the graph.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const MATCH_THRESHOLD = 0.75;
 const MAX_CANDIDATES = 30;
