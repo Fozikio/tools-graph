@@ -14,6 +14,8 @@ export const suggestTagsTool: ToolDefinition = {
   name: 'suggest_tags',
   description:
     'Suggest tags for content based on semantic similarity to known concepts in the memory graph.',
+  category: 'graph',
+  whenToUse: 'When generating tag suggestions for content based on semantic similarity to known concepts',
   inputSchema: {
     type: 'object',
     properties: {

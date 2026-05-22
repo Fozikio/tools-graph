@@ -13,6 +13,8 @@ export const graphReportTool: ToolDefinition = {
   name: 'graph_report',
   description:
     'Graph connectivity report — orphaned concepts, most/least connected nodes, memory density by category.',
+  category: 'graph',
+  whenToUse: 'When generating a connectivity report to find orphaned or poorly connected nodes',
   inputSchema: {
     type: 'object',
     properties: {

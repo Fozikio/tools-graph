@@ -19,6 +19,8 @@ export const linkTool: ToolDefinition = {
   name: 'link',
   description:
     "Manually create a typed relationship edge between two concepts. Use for connections you've reasoned to explicitly rather than waiting for dream consolidation.",
+  category: 'graph',
+  whenToUse: 'When manually creating a typed relationship edge between two concepts',
   inputSchema: {
     type: 'object',
     properties: {

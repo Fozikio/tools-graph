@@ -15,6 +15,8 @@ export const suggestLinksTool: ToolDefinition = {
   name: 'suggest_links',
   description:
     'Scan a text for phrases that match known concepts in the memory graph. Returns link suggestions with similarity scores.',
+  category: 'graph',
+  whenToUse: 'When scanning text for phrases that match known concepts to suggest new graph links',
   inputSchema: {
     type: 'object',
     properties: {
